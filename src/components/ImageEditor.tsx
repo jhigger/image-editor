@@ -158,6 +158,16 @@ const ImageEditor: React.FC = () => {
         </Stage>
         <p className="text-center text-xs text-zinc-500">
           * Double click the image to center/reset *
+          <br />
+          Made with ❤️ by{" "}
+          <a
+            href="https://discord.com/users/284489990598295552"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline"
+          >
+            Kairos
+          </a>
         </p>
       </div>
 
