@@ -116,7 +116,7 @@ const ImageEditor: React.FC = () => {
         </div>
       </div>
 
-      <div className="space-y-2">
+      <div className="space-y-2 w-[450px] h-[450px]">
         <Stage
           width={450}
           height={450}
