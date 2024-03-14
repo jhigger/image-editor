@@ -116,11 +116,11 @@ const ImageEditor: React.FC = () => {
         </div>
       </div>
 
-      <div className="space-y-2 w-[450px] h-[450px]">
+      <div className="space-y-2">
         <Stage
           width={450}
           height={450}
-          className="rounded-lg border border-gray-400 p-4"
+          className="h-[450px] w-[450px] rounded-lg border border-gray-400 p-4"
           ref={stageRef}
           onMouseLeave={() => transformerRef.current?.hide()}
         >
