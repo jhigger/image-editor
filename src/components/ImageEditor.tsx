@@ -120,7 +120,7 @@ const ImageEditor: React.FC = () => {
         <Stage
           width={450}
           height={450}
-          className="h-[450px] w-[450px] rounded-lg border border-gray-400 p-4"
+          className="rounded-lg border border-gray-400 p-4"
           ref={stageRef}
           onMouseLeave={() => transformerRef.current?.hide()}
         >
